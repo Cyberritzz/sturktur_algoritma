@@ -73,12 +73,6 @@ def mergeSort(arr, descending=True):
             arr[k] = kanan[j]
             j += 1
             k += 1
-def search(arr1, n, arr2):
-    linear = []
-    for i in range(n):
-        if arr1[i] == arr2:
-            linear.append(i)
-    return linear
 if __name__ == "__main__":
     arr = acak()
     print("Data Awal:", arr)
